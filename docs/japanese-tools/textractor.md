@@ -63,6 +63,8 @@ If Textractor isn't capturing text properly:
 - Make sure you're using the correct architecture (x86 vs x64)
 :::
 
+You can also run Textractor from the CLI by clicking on "Open Wine console" in Lutris and using `textractor -p<PID>`, where "<PID>" is the game process identifier (you can use the "Wine Task Manager" to find it).
+
 ### Step 2: Configure Text Output
 
 #### WebSocket Method (Recommended)
