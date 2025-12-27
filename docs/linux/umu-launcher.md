@@ -11,12 +11,12 @@ title : 'UMU Launcher'
 Open a terminal emulator and run a command similar to:
 
 ```bash
-WINEPREFIX=$HOME/Games/epic-games-store GAMEID=umu-dauntless PROTONPATH="$HOME/.steam/steam/compatibilitytools.d/GE-Proton8-28" umu-run "$HOME/Games/epic-games-store/drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe" -opengl -SkipBuildPatchPrereq
+WINEPREFIX=$HOME/Games/epic-games-store GAMEID=umu-dauntless STORE=egs PROTONPATH="$HOME/.steam/steam/compatibilitytools.d/GE-Proton8-28" umu-run "$HOME/Games/epic-games-store/drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe" -opengl -SkipBuildPatchPrereq
 ```
 
 More examples are available in the [official documentation](https://github.com/Open-Wine-Components/umu-launcher/blob/main/docs/umu.1.scd) and in the [FAQ](https://github.com/Open-Wine-Components/umu-launcher/wiki/Frequently-asked-questions-(FAQ))
 
-If you have erros after updating your system, delete the content ~/.local/share/umu and it umu will reinstall the runtime at launch.
+If you have errors after updating your system, delete the content of `~/.local/share/umu` and it will reinstall the runtime at launch.
 
 ## Lutris
 1. In some Distros you will need to install umu-launcher package like Arch or Fedora. On the Steam Deck it shouldn't be needed.
