@@ -139,9 +139,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "Malie",
-    "Wineprefix": "any",
-    "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": ""
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72], [86]"
   },
   {
     "Visual Novel": "Maitetsu Last Run!",
@@ -212,8 +212,8 @@
     "Steam Deck": "✅",
     "Game engine": "Kirikiri",
     "Wineprefix": "vanilla",
-    "Wine version": "wine 10.4",
-    "Notes": ""
+    "Wine version": "Wine 10.4",
+    "Notes": "[72]"
   },
   {
     "Visual Novel": "Sharin no Kuni",
@@ -222,10 +222,10 @@
     "Mac": "✅",
     "Linux": "✅",
     "Steam Deck": "✅",
-    "Game engine": "Kirikiri",
+    "Game engine": "KiriKiri",
     "Wineprefix": "vanilla",
-    "Wine version": "wine 10.4",
-    "Notes": ""
+    "Wine version": "Wine 10.4",
+    "Notes": "[69], [72], [90]"
   },
   {
     "Visual Novel": "Utawarerumono: Prelude to the Fallen",
@@ -393,7 +393,7 @@
     "Game engine": "RealLive",
     "Wineprefix": "wmp10quartz",
     "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": "[5]"
+    "Notes": "[5], [69]"
   },
   {
     "Visual Novel": "Majikoi A-1",
@@ -607,8 +607,8 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "N2System",
-    "Wineprefix": "lavfilters",
-    "Wine version": "Lutris 7.21+/Proton 7+",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
     "Notes": ""
   },
   {
@@ -654,10 +654,10 @@
     "Mac": "✅",
     "Linux": "✅",
     "Steam Deck": "✅",
-    "Game engine": "",
-    "Wineprefix": "lavfilters",
-    "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": ""
+    "Game engine": "Musica",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72]"
   },
   {
     "Visual Novel": "Evenicle 1",
@@ -693,7 +693,7 @@
     "Game engine": "",
     "Wineprefix": "lavfilters",
     "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": ""
+    "Notes": "[72]"
   },
   {
     "Visual Novel": "ef - the latter tale.",
@@ -705,7 +705,7 @@
     "Game engine": "",
     "Wineprefix": "lavfilters",
     "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": ""
+    "Notes": "[72]"
   },
   {
     "Visual Novel": "Never7 -the end of infinity-",
@@ -811,8 +811,8 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "N2System",
-    "Wineprefix": "demonbaneengine",
-    "Wine version": "Lutris 7.21+/Proton 7+",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
     "Notes": ""
   },
   {
@@ -847,8 +847,8 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "N2System/N4System",
-    "Wineprefix": "muramasaengine",
-    "Wine version": "Lutris 7.21+/Proton 7+",
+    "Wineprefix": "proton-ge",
+    "Wine version": "Proton GE 10.27",
     "Notes": ""
   },
   {
@@ -859,9 +859,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "RealLive",
-    "Wineprefix": "any",
-    "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": ""
+    "Wineprefix": "vanilla",
+    "Wine version": "Wine 10.0",
+    "Notes": "[5], [69], [70], [71], [112]"
   },
   {
     "Visual Novel": "Fate/stay night",
@@ -874,6 +874,18 @@
     "Wineprefix": "lavfilters",
     "Wine version": "Lutris 6.21+/Proton 7+",
     "Notes": "[33]"
+  },
+  {
+    "Visual Novel": "Fate/Stay Night [Realta Nua]",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [86], [90]"
   },
   {
     "Visual Novel": "Gore Screaming Show",
@@ -907,9 +919,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "RealLive",
-    "Wineprefix": "any",
-    "Wine version": "Lutris 7.21+/Proton 7+",
-    "Notes": ""
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [110]"
   },
   {
     "Visual Novel": "Kanon 2024",
@@ -954,10 +966,10 @@
     "Mac": "❓",
     "Linux": "✅",
     "Steam Deck": "✅",
-    "Game engine": "",
-    "Wineprefix": "wmp10quartz",
-    "Wine version": "Lutris 7.2+",
-    "Notes": ""
+    "Game engine": "Ikura GDL",
+    "Wineprefix": "lavfiltersxlite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72]"
   },
   {
     "Visual Novel": "Otome wa Boku ni Koishiteru",
@@ -1039,9 +1051,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "InnocentGrey/Kirikiri",
-    "Wineprefix": "any",
-    "Wine version": "any",
-    "Notes": ""
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[86], [90]"
   },
   {
     "Visual Novel": "Kara no Shoujo (HD)",
@@ -1221,7 +1233,7 @@
     "Game engine": "Siglus engine",
     "Wineprefix": "wmp10quartz",
     "Wine version": "Lutris 7.2",
-    "Notes": "[47], [48], [49]"
+    "Notes": "[47], [48], [49], [69]"
   },
   {
     "Visual Novel": "Clover Day's Plus",
@@ -1306,6 +1318,18 @@
     "Wineprefix": "any",
     "Wine version": "Proton 9+",
     "Notes": "[18], [56]"
+  },
+  {
+    "Visual Novel": "Mahoutsukai no Yoru",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [90]"
   },
   {
     "Visual Novel": "Gunjou no Sora o Koete",
@@ -1458,10 +1482,10 @@
     "Mac": "❓",
     "Linux": "✅",
     "Steam Deck": "✅",
-    "Game engine": "",
-    "Wineprefix": "wmp11quartz",
-    "Wine version": "Lutris 7.2",
-    "Notes": "[19]"
+    "Game engine": "N2System",
+    "Wineprefix": "lavfiltersquartzlite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[86], [91]"
   },
   {
     "Visual Novel": "Kazoku keikaku",
@@ -1690,6 +1714,510 @@
     "Wineprefix": "Proton-GE",
     "Wine version": "Proton GE 10+",
     "Notes": "[38]"
+  },
+  {
+    "Visual Novel": "Baldr Force",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "NeXAS",
+    "Wineprefix": "lavfiltersquartz",
+    "Wine version": "Wine 10.0",
+    "Notes": "[5], [69], [72], [73], [74], [75], [76], [77]"
+  },
+  {
+    "Visual Novel": "I/O",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "devenumquartz",
+    "Wine version": "Wine 10.0",
+    "Notes": "[5], [69], [75], [78], [79]"
+  },
+  {
+    "Visual Novel": "ONE ~Kagayaku Kisetsu e~",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "vanilla",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [111]"
+  },
+  {
+    "Visual Novel": "Rance VI - Zeth Houkai -",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "AliceSoft System 4.X",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[13], [80]"
+  },
+  {
+    "Visual Novel": "Maitetsu",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[69]"
+  },
+  {
+    "Visual Novel": "Cosmos no Sora ni",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "vanilla",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72], [82]"
+  },
+  {
+    "Visual Novel": "Duel Savior",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "lavfiltersquartzjapanese",
+    "Wine version": "Wine 5.5",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "Shabura Rental",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KaGuYa",
+    "Wineprefix": "lavfilterslitejapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [83], [84], [85]"
+  },
+  {
+    "Visual Novel": "Higurashi no Naku Koro ni Hou - Onikakushi Hen",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Unity",
+    "Wineprefix": "lavfiltersvcrun",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[69], [87]"
+  },
+  {
+    "Visual Novel": "Imouto Paradise!",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "ExHibit",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72], [83], [88]"
+  },
+  {
+    "Visual Novel": "Imouto Paradise! 2",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "ExHibit",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72], [83], [88]"
+  },
+  {
+    "Visual Novel": "Imouto Paradise! 3",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "ExHibit",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72], [83], [88], [89]"
+  },
+  {
+    "Visual Novel": "Fata Morgana no Yakata",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[86]"
+  },
+  {
+    "Visual Novel": "Sono Hanabira ni Kuchizuke o",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "vanilla",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72], [92]"
+  },
+  {
+    "Visual Novel": "Sono Hanabira ni Kuchizuke o: Watashi no Ouji-sama",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "vanilla",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72], [92]"
+  },
+  {
+    "Visual Novel": "Tenioha! ~Onna no Ko Datte Honto wa Ecchi da yo?~",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[86]"
+  },
+  {
+    "Visual Novel": "Higanbana no Saku Yoru ni - Dai Ichi Ya",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "NScripter",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "Higanbana no Saku Yoru ni - Dai Ni Ya",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "NScripter",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "Cartagra ~Tsuki Kurui no Yamai~",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Unity",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Choukou Tenshi Escalayer",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "AliceSoft System 4.X",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Taimanin Asagi ZERO",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Artemis Engine",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "Shuffle",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "BGI/Ethornell",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": ""
+  },
+  {
+    "Visual Novel": "Yotsunoha",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72]"
+  },
+  {
+    "Visual Novel": "School Days",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "FORIS-OS",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[93]"
+  },
+  {
+    "Visual Novel": "World End Economica Episode 1",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Unity",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72]"
+  },
+  {
+    "Visual Novel": "World End Economica Episode 2",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Unity",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72]"
+  },
+  {
+    "Visual Novel": "World End Economica Episode 3",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Unity",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72]"
+  },
+  {
+    "Visual Novel": "planetarian ~Chiisana Hoshi no Yume~",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "RealLive",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "Dra+koi",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "BUNNYBLACK",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "SystemAoi",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69]"
+  },
+  {
+    "Visual Novel": "Flowers -Le volume sur printemps-",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[13], [94]"
+  },
+  {
+    "Visual Novel": "Taimanin Asagi",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [86], [90]"
+  },
+  {
+    "Visual Novel": "Sengoku Rance",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "AliceSoft System 4.X",
+    "Wineprefix": "lavfilterslite",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[13], [72]"
+  },
+  {
+    "Visual Novel": "Ever17",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [72]"
+  },
+  {
+    "Visual Novel": "Coμ",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersjapanese32",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [86], [90]"
+  },
+  {
+    "Visual Novel": "Koutetsu no Majo Annerose",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [86], [90]"
+  },
+  {
+    "Visual Novel": "Tomoyo After",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "RealLive",
+    "Wineprefix": "lavfiltersxlitejapanese",
+    "Wine version": "Wine 8.15",
+    "Notes": "[5], [69], [71], [88]"
+  },
+  {
+    "Visual Novel": "Starless",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Majiro",
+    "Wineprefix": "lavfiltersplus",
+    "Wine version": "Wine 8.15",
+    "Notes": "[72], [73], [90]"
+  },
+  {
+    "Visual Novel": "DISCIPLINE -The record of a Crusade-",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "A98SYS",
+    "Wineprefix": "directmusic",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72], [95], [96], [97], [98]"
+  },
+  {
+    "Visual Novel": "Bible Black -La noche de walpurgis-",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "⚠️",
+    "Steam Deck": "❓",
+    "Game engine": "A98SYS",
+    "Wineprefix": "directmusic",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[72], [95], [96], [97], [98]"
+  },
+  {
+    "Visual Novel": "Taimanin Asagi 3",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "KiriKiri",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Caffe 7.7",
+    "Notes": "[5], [69], [86], [90], [99]"
+  },
+  {
+    "Visual Novel": "Little Busters",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "RealLive",
+    "Wineprefix": "lavfiltersjapanese",
+    "Wine version": "Wine 8.15",
+    "Notes": "[5], [69], [72], [88]"
   },
   {
     "Visual Novel": "Bakappuru Supplement",
