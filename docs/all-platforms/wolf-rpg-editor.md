@@ -22,7 +22,7 @@ Install [Japanese Fonts](/linux/wineprefixes).
 ### Known issues
 
 - Some games might need to have their settings tweaked with "Config.exe" to even start.
-- Use `iconv` and `unzip` commands to fix files with encoding issues in their name or content as it causes issues ing-game.
+- Use `iconv` and `unzip` commands to fix files with encoding issues in their name or content as they can crash the game.
 - Some Wine versions might require to [disable "xaudio2_8.dll"](https://github.com/iXit/Mesa-3D/issues/65#issuecomment-163955999) using `winecfg` to run a game.
 
 ## Game translations
