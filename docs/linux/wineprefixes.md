@@ -505,6 +505,7 @@ Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/
 - [wine-stable](https://aur.archlinux.org/packages/wine-stable)
 - [wine-stable-next](https://aur.archlinux.org/packages/wine-stable-next)
 - [wine-cachyos](https://aur.archlinux.org/packages/wine-cachyos)
+- [proton-cachyos](https://aur.archlinux.org/packages/proton-cachyos)
 - [wine-osu-spectator-wow64](https://aur.archlinux.org/packages/wine-osu-spectator-wow64)
 - [proton-ge-custom-bin](https://aur.archlinux.org/packages/proton-ge-custom-bin)
 - [proton-ge-custom-rtsp-bin](https://aur.archlinux.org/packages/proton-ge-custom-rtsp-bin)
