@@ -504,6 +504,7 @@ Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/
 - [wine-osu-spectator](https://aur.archlinux.org/packages/wine-osu-spectator)
 - [wine-stable](https://aur.archlinux.org/packages/wine-stable)
 - [wine-stable-next](https://aur.archlinux.org/packages/wine-stable-next)
+- [wine-cachyos](https://aur.archlinux.org/packages/wine-cachyos)
 - [wine-osu-spectator-wow64](https://aur.archlinux.org/packages/wine-osu-spectator-wow64)
 - [proton-ge-custom-bin](https://aur.archlinux.org/packages/proton-ge-custom-bin)
 - [proton-ge-custom-rtsp-bin](https://aur.archlinux.org/packages/proton-ge-custom-rtsp-bin)
@@ -519,3 +520,4 @@ Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/
 - [Wine Registry Keys Guide](https://gitlab.winehq.org/wine/wine/-/wikis/Useful-Registry-Keys)
 - [WMP11 32-bit Fix](https://github.com/Winetricks/winetricks/pull/1990)
 - [Special Codecs](special-codecs.md)
+- [CodeWeavers Knowledge Base](https://support.codeweavers.com/en_US/linux-knowledge-base)
