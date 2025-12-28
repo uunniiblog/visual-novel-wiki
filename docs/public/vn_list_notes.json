@@ -69,7 +69,7 @@
   "68": "`error message: unrecognized kernel32 module` is a [known issue](https://www.reddit.com/r/visualnovels/comments/1blu55t/rui_wa_tomo_o_yobu_fan_disk_not_working/) with older KiriKiri games that implement the integrity check. Check if the game has any official patches for Windows 8/10 compatibility.",
   "69": "Install Japanese Fonts",
   "70": "Edit \"GAMEEXE.INI\" and remove `#KOEREPLAYICON.NAME = \"koeicon\"` if you're using version 1.2 of the patch to avoid getting an error at the start.",
-  "71": "Disable \"Allow the window manager to decorate the windows\" and \"Allow the window manager to control the windows\" in \"winecfg\", run the game then chenage back these settings. It should avoid showing the GNOME bar while allowing window manipulation.",
+  "71": "Disable \"Allow the window manager to decorate the windows\" and \"Allow the window manager to control the windows\" in \"winecfg\", run the game then change back these settings. It should avoid showing the GNOME bar while allowing window manipulation.",
   "72": "Disable \"Allow the window manager to decorate the windows\" and \"Allow the window manager to control the windows\" in \"winecfg\"",
   "73": "Change in-game graphics settings",
   "74": "Override `wined3d.dll` to \"Native, Builtin\"",
