@@ -528,16 +528,16 @@
     "Notes": ""
   },
   {
-    "Visual Novel": "White Album 2 Introductory Chapter & Closing Chapter",
+    "Visual Novel": "White Album 2",
     "Visual Novel Link": "/visual-novels/white-album-2",
     "Windows": "✅",
     "Mac": "✅",
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "",
-    "Wineprefix": "wmp10quartz/Vanilla",
-    "Wine version": "Lutris 7.21/Wine 10",
-    "Notes": "[19], [20], [21]"
+    "Wineprefix": "proton-ge",
+    "Wine version": "proton-ge 10.25",
+    "Notes": "[20], [21]"
   },
   {
     "Visual Novel": "Fruit of Grisaia",
