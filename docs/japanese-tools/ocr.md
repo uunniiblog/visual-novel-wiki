@@ -8,7 +8,7 @@ title : 'OCR'
 
 
 ## OwOCR
-[OwOCR](https://github.com/AuroraWright/owocr) is a Command line client for several Japanese OCR
+[OwOCR](https://github.com/AuroraWright/owocr) is a multiplatform Command line client for several Japanese OCR
 
 ### Installation
 
@@ -27,12 +27,13 @@ pipx install owocr
 > Requires Python 3.11, 3.12 or 3.13.
 
 ### Providers
-You need OCR providers to recognize the text, as of right now the best one is google lens, but you can install a few of them and test for yourself, some of them are offline too in case there is no access to internet.
+You need OCR providers to recognize the text, as of right now the best one is google lens, but you can install a few of them and test for yourself, some of them are offline too in case there is no access to internet. Check de OwOCR github for the latest info
 
 Local:
 1. Manga OCR: install with pip install owocr[mangaocr] ("m" key)
 2. EasyOCR: install with pip install owocr[easyocr] ("e" key)
 3. RapidOCR: install with pip install owocr[rapidocr] ("r" key)
+4. MeikiOCR: install with pip install "owocr[meikiocr]" ("k" key) This is the best one from all the current local providers, but doesn't support vertical writing.
 
 Cloud:
 1. Google Lens: Google Vision in disguise (no need for API keys!), install with pip install owocr[lens] ("l" key)
@@ -40,11 +41,12 @@ Cloud:
 
 > [!NOTE]
 > To install with `pipx` use the command: `pipx inject owocr [name]`  
-> Example `pipx inject owcr manga-ocr easyocr rapidocr-onnxruntime betterproto pyjson5 google-cloud-vision`
+> Example `pipx inject owocr manga-ocr easyocr rapidocr-onnxruntime betterproto pyjson5 google-cloud-vision`
+> I recommend to install Google Lens for online and Meiki for offline: `pipx inject owocr meikiocr google-cloud-vision`
 
 ### Usage
 To run it open a terminal and run `owocr`. Once it is running it will automatically read images from your clipboard, any read text will be shown in the window and copied back to the clipboard.
-Once open you can press a key to change the provider
+Once open you can press a key to change the provider. you can also open it already configured
 
 ![owocr preview](/img/tutorials/ocr/owocr_run.webp)
 
@@ -64,8 +66,11 @@ if [ ! -d "$OWOCR_DIR" ]; then
     echo "Created directory: $OWOCR_DIR"
 fi
 
-# Run OwOCR
-owocr -r "/tmp/owocr" -w clipboard -e glens -d -n
+# -d deletes image
+# -n enables notification
+# -es adds second local provider
+
+owocr -r "/tmp/owocr" -w clipboard -e glens -d -n -es=meikiocr
 ```
 
 2. Take screenshots (Using spectacle)
@@ -107,6 +112,10 @@ To use it:
 Preview:
 ![owocr gif](/img/tutorials/ocr/owocr_gif.gif)
 
+### Screencapture
+Since version 1.22 now you can use screencapture if you are using Wayland to monitor the textbox of your VN for example and it will automatically detect changes. You can run it with: `owocr -e glens -r screencapture -w clipboard -es=meikiocr`. Here it is recommended to use both online and offline providers for better accuracy and speed.
+
+![owocr screencapture preview](/img/tutorials/ocr/owocr_screencapture.webp)
 
 ## GameSentenceMiner
 
