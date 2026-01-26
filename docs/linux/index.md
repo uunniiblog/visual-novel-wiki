@@ -51,5 +51,4 @@ After completing these steps, you should be able to run most visual novels.
 | [UMU Launcher](umu-launcher) | Universal game launcher | Alternative launcher solution |
 
 ### Compatibility Resources
-- [Bottles Compatibility List](bottles/bottles-compatibility-list) - VN compatibility with Bottles
 - [Visual Novel Compatibility List](../visual-novel-compatibility-list) - General VN compatibility database
