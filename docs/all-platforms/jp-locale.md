@@ -186,11 +186,10 @@ After running the commands for your distribution, you can verify that the Japane
 ```bash
 locale -a | grep ja_JP.UTF-8
 ```
-This command should output `ja_JP.UTF-8` (or `ja_jp.utf8`) if it has been successfully generated and is available.
-
+This command should output `ja_JP.UTF-8` or `ja_jp.utf8` if it has been successfully generated and is available. The [different spelling doesn't matter](https://bbs.archlinux.org/viewtopic.php?id=257572) but `ja_JP.UTF-8` is the preferred convention.
 
 > [!IMPORTANT]
-> You do not need to switch your whole system to Japanese; just ensure the locale is available and properly configured. These commands achieve that by making `ja_JP.UTF-8` available for applications to use.
+> You do not need to switch your whole system to Japanese; just ensure the locale is available and properly configured. These commands achieve that by making `ja_JP.UTF-8` available for applications to use. Almost all games should run with that locale but you might have to repeat the process for [other Japanese encoding](https://wiki.debian.org/JapaneseEnvironmentE): `ja_JP.SJIS` and/or `ja_JP.EUC-JP`. Like for `ja_JP.UTF-8`, you might encounter variants such as `ja_JP.sjis` or `ja_JP.eucjp` but it doesn't matter either.
 
 
 ## Steam Deck Setup

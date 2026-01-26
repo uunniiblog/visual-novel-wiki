@@ -33,3 +33,4 @@ Add locally installed game with these settings:
 * [AppDB](https://appdb.winehq.org/objectManager.php?sClass=version&iId=29024)
 * [SteamGridDB](https://www.steamgriddb.com/game/5263443)
 * [Walkthrough](https://forums.fuwanovel.net/topic/25667-white-album-2-fan-translation-walkthrough/)
+* [Todokanai Translations' Wine guide](https://todokanaitl.github.io/wa2-wine/)

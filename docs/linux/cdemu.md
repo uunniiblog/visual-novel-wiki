@@ -4,7 +4,7 @@ title : 'CDEmu'
 
 # CDEmu
 
-CDEmu, or CDEmulation is needed to virtually mount your games on Linux for those pesky VNs without a digital version.
+Like [WinCDEmu](https://en.wikipedia.org/wiki/WinCDEmu), CDEmu can virtually mount games on Linux for those pesky VNs without a digital version. It supports formats like ISO, CUE/BIN, MDF/MDS and CCD/IMG.
 
 ## Installation
 

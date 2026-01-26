@@ -156,6 +156,7 @@ No extra components needed; should work out of the box.
 >
 > For more detailed information about the script, see the [Special Codecs](special-codecs.md) page.
 
+These prefixes all use "Windows 10" as the [reported Windows version](https://gitlab.winehq.org/wine/wine/-/wikis/Commands/winecfg#windows-version), unless stated otherwise.
 
 #### wmp11quartz (64bit)
 ```bash
@@ -194,6 +195,144 @@ winetricks ffdshow
 #### wmp9 (32bit)
 ```bash
 winetricks -q --force wmp9
+```
+
+#### lavfiltersquartz (64bit)
+
+```bash
+winetricks -q --force d3dx9 amstream d3dcompiler_43 d3dcompiler_47 devenum lavfilters quartz
+```
+
+#### devenumquartz (64bit)
+
+```bash
+winetricks -q --force amstream devenum quartz
+```
+
+#### lavfilterslite (64bit)
+
+```bash
+winetricks -q --force d3dx9 dirac lavfilters vcrun2005 vcrun2008
+```
+
+#### lavfiltersxlite (64bit)
+
+```bash
+winetricks -q --force devenum lavfilters quartz
+```
+
+#### lavfiltersplus (64bit)
+
+```bash
+winetricks -q --force d3dx9 dirac dotnet35 dotnet40 lavfilters vcrun2005 vcrun2008
+```
+
+#### lavfiltersjapanese (64bit)
+
+```bash
+winetricks -q --force cjkfonts d3dx9 dirac dotnet35 dotnet40 lavfilters vcrun2005 vcrun2008
+```
+
+#### lavfiltersquartzjapanese (64bit)
+
+```bash
+winetricks -q --force d3dx9 d3dcompiler_43 d3dcompiler_47 lavfilters quartz
+```
+
+#### lavfilterslitejapanese (64bit)
+
+```bash
+winetricks -q --force d3dx9 dirac lavfilters vcrun2005 vcrun2008
+```
+
+#### lavfiltersvcrun (64bit)
+
+```bash
+winetricks -q --force d3dcompiler_47 d3dx9 dirac dotnet35 lavfilters vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015 vcrun2019
+```
+
+#### lavfiltersquartzlite (64bit)
+
+```bash
+winetricks -q --force d3dx9 dirac lavfilters vcrun2005 vcrun2008 quartz
+```
+
+#### lavfiltersjapanese32 (32bit)
+
+```bash
+winetricks -q --force cjkfonts d3dx9 dirac dotnet35 dotnet40 lavfilters vcrun2005 vcrun2008
+```
+
+#### lavfiltersxlitejapanese (64bit)
+
+```bash
+winetricks -q --force d3dx9 dirac lavfilters vcrun2005 vcrun2008
+```
+
+#### directmusic (64bit)
+
+```bash
+winetricks -q --force directmusic gmdls
+```
+
+#### d3dcompilerxlite (64bit)
+
+```bash
+winetricks -q --force d3dcompiler_47
+```
+
+#### d3dcompilerlite (64bit)
+
+```bash
+winetricks -q --force cjkfonts d3dcompiler_47 d3dx9
+```
+
+#### lavfiltersd3d (64bit)
+
+```bash
+winetricks -q --force d3dx9 d3dcompiler_43 d3dcompiler_47 lavfilters quartz
+```
+
+#### directmusicquartz (64bit)
+
+```bash
+winetricks -q --force directmusic gmdls quartz
+```
+
+#### dotnet (64bit)
+
+```bash
+winetricks -q --force dotnet35 dotnet40 dotnet45 dotnet452 dotnet46 dotnet461 dotnet462 dotnet472 dotnet48 vcrun2005 vcrun2008
+```
+
+#### dotnetvcrunjapanese (64bit)
+
+```bash
+winetricks -q --force cjkfonts d3dx9 dotnet40 dotnet45 dotnet46 dotnet461 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2015 vcrun2019
+```
+
+#### dxvkplus (64bit)
+
+```bash
+winetricks -q --force arial courier d3dcompiler_43 d3dcompiler_47 d3dx9 dxvk2010 lavfilters702 msls31 quartz times
+```
+
+#### lavfiltersd3djapanese (64bit)
+
+```bash
+winetricks -q --force cjkfonts d3dx9 dirac d3dcompiler_43 d3dcompiler_47 lavfilters
+```
+
+#### lavfiltersd3dlite (64bit)
+
+```bash
+winetricks -q --force d3dx9 d3dcompiler_43 d3dcompiler_47 lavfilters
+```
+
+#### dxvkdotnet (64bit)
+
+```bash
+winetricks -q --force d3dx9 devenum dirac dotnet35 dotnet40 dxvk2010 lavfilters vcrun2005 vcrun2008
 ```
 
 > [!IMPORTANT]
@@ -300,6 +439,10 @@ From Wine 10.0 (stable), a new opt-in FFmpeg-based backend is available as an al
 #### Registry Keys
 See the [list of useful registry keys](https://gitlab.winehq.org/wine/wine/-/wikis/Useful-Registry-Keys) maintained by Wine for advanced configuration options.
 
+#### Wine amd64 vs WoW64
+
+[Wine WoW64 versions work on systems without 32-bit libraries](https://github.com/Kron4ek/Wine-Builds?tab=readme-ov-file#architectures) but some [32-bit games can have performance issues on those versions](https://archlinux.org/news/transition-to-the-new-wow64-wine-and-wine-staging/). [Improvements are being made though](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.18)
+
 ### Version Compatibility Notes
 
 - Avoid Lutris 7.2.2 due to video playback issues
@@ -307,9 +450,75 @@ See the [list of useful registry keys](https://gitlab.winehq.org/wine/wine/-/wik
 - Some codecs like `mciqtz32` don't work with newer Wine versions
 - `wmp11_quartz` can be installed in newer Proton prefixes
 
+## Common Wine versions
+
+If you don't know which Wine/Proton version might be the best for a particular game, try these ones:
+
+- [Caffe 7.7](https://github.com/bottlesdevs/wine/releases/tag/caffe-7.7)
+- [GE-Proton7-55](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton7-55)
+- [GE-Proton8-6](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton8-6)
+- [GE-Proton9-5](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-5)
+- [GE-Proton9-7](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-7)
+- [GE-Proton9-9](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-9)
+- [GE-Proton9-10](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-10)
+- [GE-Proton9-13](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton9-13)
+- [GE-Proton10-4](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-4)
+- [GE-Proton10-8](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-8)
+- [GE-Proton10-25](https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton10-25)
+- [Kron4ek Wine 8.15](https://github.com/Kron4ek/Wine-Builds/releases/tag/8.15)
+- [Kron4ek Wine 8.21](https://github.com/Kron4ek/Wine-Builds/releases/tag/8.21)
+- [Kron4ek Wine 10.0](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.0)
+- [Lutris Wine 6.14-4](https://github.com/lutris/wine/releases/tag/lutris-6.14-4)
+- [Lutris Wine 7.2](https://github.com/lutris/wine/releases/tag/lutris-wine-7.2)
+- [Proton 5.13-6](https://github.com/ValveSoftware/Proton/releases/tag/proton-5.13-6)
+- [UMU-Proton 9.0-2](https://github.com/Open-Wine-Components/umu-proton/releases/tag/UMU-Proton-9.0-2)
+- [UMU-Proton 9.0-4e](https://github.com/Open-Wine-Components/umu-proton/releases/tag/UMU-Proton-9.0-4e)
+- [Wine 5.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.0)
+- [Wine 5.5](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.5)
+- [Wine 5.10](https://gitlab.winehq.org/wine/wine/-/releases/wine-5.10)
+- [Wine 6.0.1](https://gitlab.winehq.org/wine/wine/-/releases/wine-6.0.1)
+- [Wine 6.3](https://gitlab.winehq.org/wine/wine/-/releases/wine-6.3)
+- [Wine 6.21](https://gitlab.winehq.org/wine/wine/-/releases/wine-6.21)
+- [Wine 7.1](https://gitlab.winehq.org/wine/wine/-/releases/wine-7.1)
+- [Wine 7.2](https://gitlab.winehq.org/wine/wine/-/releases/wine-7.2)
+- [Wine 9.14](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.14)
+- [Wine 9.17 (WoW64)](https://github.com/Kron4ek/Wine-Builds/releases/tag/9.17)
+- [Wine 9.18](https://gitlab.winehq.org/wine/wine/-/releases/wine-9.18)
+- [Wine 10.0](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0)
+- [Wine 10.0 (WoW64)](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.0)
+- [Wine 10.4 (staging)](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.4)
+- [Wine 10.4 (staging, WoW64)](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.4)
+- [Wine 10.5](https://gitlab.winehq.org/wine/wine/-/releases/wine-10.5)
+- [Wine 10.10 (staging, WoW64)](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.10)
+- [Wine-GE-Proton7-43](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton7-43)
+- [Wine-GE-Proton8-5](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-5)
+- [Wine-GE-Proton8-13](https://github.com/GloriousEggroll/wine-ge-custom/releases/tag/GE-Proton8-13)
+
+## Common system packages
+
+Lutris documentation [about drivers](https://github.com/lutris/docs/blob/master/InstallingDrivers.md), [Wine dependencies](https://github.com/lutris/docs/commit/898ca03715d2d5f170af83e714dfcc549820aa9f) and [GloriousEggroll's Blog](https://www.gloriouseggroll.tv/how-to-get-out-of-wine-dependency-hell/). Arch Linux users can find Wine optional dependencies on the following package pages:
+
+- [umu-launcher](https://archlinux.org/packages/multilib/x86_64/umu-launcher/)
+- [wine](https://archlinux.org/packages/extra/x86_64/wine/)
+- [wine32](https://aur.archlinux.org/packages/wine32)
+- [wine-osu-spectator](https://aur.archlinux.org/packages/wine-osu-spectator)
+- [wine-stable](https://aur.archlinux.org/packages/wine-stable)
+- [wine-stable-next](https://aur.archlinux.org/packages/wine-stable-next)
+- [wine-cachyos](https://aur.archlinux.org/packages/wine-cachyos)
+- [proton-cachyos](https://aur.archlinux.org/packages/proton-cachyos)
+- [wine-osu-spectator-wow64](https://aur.archlinux.org/packages/wine-osu-spectator-wow64)
+- [proton-ge-custom-bin](https://aur.archlinux.org/packages/proton-ge-custom-bin)
+- [proton-ge-custom-rtsp-bin](https://aur.archlinux.org/packages/proton-ge-custom-rtsp-bin)
+- [proton-xiv-bin](https://aur.archlinux.org/packages/proton-xiv-bin)
+- [wine-git](https://aur.archlinux.org/packages/wine-git)
+- [wine-staging-git](https://aur.archlinux.org/packages/wine-staging-git)
+- [steam-native-runtime](https://aur.archlinux.org/packages/steam-native-runtime)
+- [steamrun](https://aur.archlinux.org/packages/steamrun)
+
 ### Additional Resources
 
 - [Windows Japanese Fonts Pack](https://drive.google.com/file/d/1OiBgAmt3vPRu08gPpxFfzrtDgarBGszK/view)
 - [Wine Registry Keys Guide](https://gitlab.winehq.org/wine/wine/-/wikis/Useful-Registry-Keys)
 - [WMP11 32-bit Fix](https://github.com/Winetricks/winetricks/pull/1990)
 - [Special Codecs](special-codecs.md)
+- [CodeWeavers Knowledge Base](https://support.codeweavers.com/en_US/linux-knowledge-base)
