@@ -139,9 +139,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "Malie",
-    "Wineprefix": "lavfilterslite",
-    "Wine version": "Caffe 7.7",
-    "Notes": "[72], [86]"
+    "Wineprefix": "any",
+    "Wine version": "wine 10 or proton-ge 8/9/10",
+    "Notes": ""
   },
   {
     "Visual Novel": "Maitetsu Last Run!",
@@ -849,7 +849,7 @@
     "Game engine": "N2System/N4System",
     "Wineprefix": "proton-ge",
     "Wine version": "Proton GE 10.27",
-    "Notes": ""
+    "Notes": "[122]"
   },
   {
     "Visual Novel": "AIR",
@@ -1188,6 +1188,18 @@
     "Notes": ""
   },
   {
+    "Visual Novel": "NUKITASHI Remaster",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "❓",
+    "Game engine": "Artemis Engine",
+    "Wineprefix": "any",
+    "Wine version": "Proton-ge10+",
+    "Notes": ""
+  },
+  {
     "Visual Novel": "Kishin Houkou Demonbane",
     "Visual Novel Link": null,
     "Windows": "✅",
@@ -1195,9 +1207,9 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "N4System",
-    "Wineprefix": "Vanilla + MF",
-    "Wine version": "Wine 10.10",
-    "Notes": "56"
+    "Wineprefix": "Vanilla + MF/Proton-ge",
+    "Wine version": "Wine 10.10/proton-ge 10.25",
+    "Notes": "[56] [122]"
   },
   {
     "Visual Novel": "Sore wa Maichiru Sakura no You ni -Re:BIRTH-",
@@ -1219,8 +1231,8 @@
     "Linux": "✅",
     "Steam Deck": "✅",
     "Game engine": "Kirikiri",
-    "Wineprefix": "wmp11quartz",
-    "Wine version": "Lutris 7.2",
+    "Wineprefix": "wmp11quartz or vanilla",
+    "Wine version": "wine/proton 10+",
     "Notes": ""
   },
   {
@@ -2230,5 +2242,41 @@
     "Wineprefix": "Kron4ek",
     "Wine version": "Kron4ek wine-10.20-amd64",
     "Notes": "[5],[38]"
+  },
+  {
+    "Visual Novel": "Monkeys",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "",
+    "Wineprefix": "wmp11quartz",
+    "Wine version": "Proton-ge 10.25",
+    "Notes": "[5]"
+  },
+  {
+    "Visual Novel": "Haru no Ashioto",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Musica",
+    "Wineprefix": "proton-ge",
+    "Wine version": "Proton-ge 10.25",
+    "Notes": "[5], [18]"
+  },
+  {
+    "Visual Novel": "Soreyori no Prologue",
+    "Visual Novel Link": null,
+    "Windows": "✅",
+    "Mac": "❓",
+    "Linux": "✅",
+    "Steam Deck": "✅",
+    "Game engine": "Musica",
+    "Wineprefix": "wmp11quartz",
+    "Wine version": "Proton-ge 10.25",
+    "Notes": "[5], [18]"
   }
 ]
