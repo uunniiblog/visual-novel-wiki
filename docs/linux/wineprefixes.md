@@ -102,8 +102,8 @@ Based on the prefix type, select the appropriate Wine runner:
 
 | Prefix Type | Recommended Runner | Installation Source | Notes |
 |-------------|-------------------|---------------------|-------|
-| **vanilla** | Wine 10 | [protonUp-qt](protonup) Kron4ek Builds | It has fullscreen issues with some VNs, can use gamescope as a workaround |
-| **proton_ge** | Proton-GE 9.27 | [protonUp-qt](protonup) | - |
+| **vanilla** | Wine 10 | [protonUp-qt](protonup) [Kron4ek Builds](https://github.com/Kron4ek/Wine-Builds/releases/) | It has fullscreen issues with some VNs, can use gamescope as a workaround |
+| **proton_ge** | Proton-GE 10.25 | [protonUp-qt](protonup) | - |
 | **Others** | Lutris 7.2 | Default | Do NOT use Lutris 7.2.2 (video playback issues)<br>Disable DXVK for these prefixes |
 
 ### 4. Install components (optional)
@@ -135,17 +135,17 @@ Needs GStreamer libraries for video playback.
 * **System Lutris**: Make sure you have these libraries installed:
 
   ```bash
-  gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base gst-plugins-bad gst-plugins-bad-libs gst-plugin-pipewire gst-libav lib32-gstreamer lib32-gst-plugins-base-libs
+  gstreamer gst-plugins-ugly gst-plugins-good gst-plugins-base-libs gst-plugins-base gst-plugins-bad gst-plugins-bad-libs gst-plugin-pipewire gst-libav
   ```
 
 * **Flatpak Lutris or Steam Deck**: No need to install anything as these come bundled in.
 
 #### proton GE (64bit)
-No extra components needed; should work out of the box.
+No extra video components needed; should work out of the box.
 
 * If using outside Steam (like Lutris), install `umu-launcher`.
-* Flatpak Lutris bundles `umu-launcher`.
-* Can also try Proton-GE 10+ versions if you have issues with 9.27. Make a different prefix for it.
+* Flatpak/Steam Deck Lutris bundles `umu-launcher` so no need to install it.
+* If you have video playback issues try to add Environment variable PROTON_MEDIA_USE_GST=1 (It runs the old proton-ge 9 video playback implementation).
 
 ### Media Prefixes
 
@@ -166,6 +166,11 @@ sh ~/Documents/vn_winestuff-main/codec.sh wmp11 quartz2
 #### wmp11 (64bit)
 ```bash
 sh ~/Documents/vn_winestuff-main/codec.sh wmp11
+```
+
+#### Media Foundation (MF) (64bit)
+```bash
+sh ~/Documents/vn_winestuff-main/codec.sh mf
 ```
 
 #### quartz_dx (64bit)
