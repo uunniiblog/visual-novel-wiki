@@ -193,6 +193,8 @@ This command should output `ja_JP.UTF-8` or `ja_jp.utf8` if it has been successf
 
 
 ## Steam Deck Setup
+> [!IMPORTANT]
+> * Non Valve distributed Steam Decks still need to manually enable Japanese locale.
 
 > [!IMPORTANT] SteamOS 3.5+ Update
 > Recent SteamOS versions include system-wide Japanese locale by default.

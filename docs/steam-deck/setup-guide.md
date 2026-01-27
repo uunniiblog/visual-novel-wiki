@@ -37,6 +37,8 @@ flatpak config --user --set languages 'en;ja'
 flatpak update
 ```
 
+If your Steam Deck isn't distributed by Valve you may also need to manually enable Japanese locale System wide. [Check the JP Locale Steam Deck section](/all-platforms/jp-locale#steam-deck-setup)
+
 ## Step 4: Install Wine and Proton Versions
 
 ### 4.1 Install Wine Versions
@@ -44,7 +46,7 @@ flatpak update
 1. Open **ProtonUp-Qt**
 2. Select **Lutris** from the dropdown
 3. Click **Add version**
-4. Select **Kron4ek Wine-Builds Vanilla Version 10.X** (latest available)
+4. Select **Kron4ek Wine-Builds Vanilla Version 10.X** wow64 build (latest available) or manually install from [Kron4ek releases](https://github.com/Kron4ek/Wine-Builds/releases/) into `/home/deck/.var/app/net.lutris.Lutris/data/lutris/runners/wine/`
 ![protonup_add_kron4ek](https://i.imgur.com/Ns14EDG.png)
 5. Press **Install** and wait for completion
 
@@ -68,7 +70,7 @@ flatpak update
 
 Open **Lutris** again and click the **+** button in the top left, then select **Add locally installed game**.
 
-### Vanilla Wine Prefix
+### 6.1 Vanilla Wine Prefix
 
 Configure the following settings:
 
@@ -103,7 +105,7 @@ The Japanese locale is usually not necessary for official localizations, but alw
    ```
 4. Close the terminal when finished
 
-### Proton-GE Prefix
+### 6.2 Proton-GE Prefix
 
 Configure the following settings:
 
@@ -126,11 +128,14 @@ Configure the following settings:
   - Key: `PROTON_VERB`
   - Value: `waitforexitandrun`
 - Locale: Select **Japanese**
+- 
 
 Click **Play** to create the prefix and open the game.
 
 ::: tip
-Proton-ge 9.27 Seems to have better video compatibility as of right now, Make sure to try both if you have issues
+From GE-Proton 10.20+ if you have video playback issues you can also try the old GE-Proton 9 video playback implementation with this environment variable in System Options:
+  - Key: `PROTON_MEDIA_USE_GST`
+  - Value: `1`
 :::
 
 ## Step 7: Install Japanese Fonts
